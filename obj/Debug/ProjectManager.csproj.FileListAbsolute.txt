@@ -1,0 +1,8 @@
+C:\csPractice\ProjectManager\obj\Debug\ProjectManager.csproj.AssemblyReference.cache
+C:\csPractice\ProjectManager\obj\Debug\ProjectManager.csproj.SuggestedBindingRedirects.cache
+C:\csPractice\ProjectManager\obj\Debug\ProjectManager.csproj.CoreCompileInputs.cache
+C:\csPractice\ProjectManager\bin\Debug\ProjectManager.exe.config
+C:\csPractice\ProjectManager\bin\Debug\ProjectManager.exe
+C:\csPractice\ProjectManager\bin\Debug\ProjectManager.pdb
+C:\csPractice\ProjectManager\obj\Debug\ProjectManager.exe
+C:\csPractice\ProjectManager\obj\Debug\ProjectManager.pdb
