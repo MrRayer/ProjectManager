@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectManager
 {
-    internal static class model
+    internal static class controller
     {
         static public string taskList;
         static public Project project;
