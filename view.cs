@@ -60,19 +60,19 @@ namespace ProjectManager
         {
             Console.WriteLine(message);
             PressToContinue();
-            model.MenuLoop();
+            controller.MenuLoop();
         }
         public static string AskTaskName()
         {
-            Console.WriteLine($"Current tasks in project: {model.taskList}");
+            Console.WriteLine($"Current tasks in project: {controller.taskList}");
             string taskName = AskInfo("Enter task name: ");
             return taskName;
         }
         public static string AskTaskNameWMembers()
         {
-            Console.WriteLine($"Current tasks in project: {model.taskList}");
+            Console.WriteLine($"Current tasks in project: {controller.taskList}");
             string taskName = AskInfo("Enter task name: ");
-            Console.WriteLine($"Current members in task {taskName}: {model.project.GetMembersInTask(taskName)}");
+            Console.WriteLine($"Current members in task {taskName}: {controller.project.GetMembersInTask(taskName)}");
             return taskName;
         }
     }

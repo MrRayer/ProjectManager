@@ -10,7 +10,7 @@ namespace ProjectManager
     {
         static void Main(string[] args)
         {
-            model.Run();
+            controller.Run();
         }
     }
 }

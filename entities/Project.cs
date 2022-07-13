@@ -137,7 +137,7 @@ namespace ProjectManager
                         if (membersList != "Members[") membersList += ", ";
                         membersList += member.person.name;
                     }
-                    membersList += $"], task status: {task.status}";
+                    membersList += $"], task description: [{task.description}], task status: {task.status}";
                     if (task.status == "In progress") { membersList += $", time since start: {DateTime.Now.Subtract(task.startTime)}"; }
                     if (task.status == "Ended") { membersList += $", total time : {task.endTime.Subtract(task.startTime)}"; }
                     return membersList;
